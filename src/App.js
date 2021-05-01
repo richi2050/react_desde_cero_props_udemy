@@ -1,6 +1,6 @@
 import React from 'react';
-import Saludo from './components/Saludo'
-import Comentario from './components/Comentario';
+import { Saludo } from './components/Saludo'
+import { Comentario } from './components/Comentario'
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Saludo persona='Pedrito' edad={27} />
       <hr />
       <h3>Cajita de comentarios</h3>
+      
       <Comentario
         urlImagen='https://picsum.photos/64'
         persona='Ignacio'
@@ -25,7 +26,7 @@ function App() {
         urlImagen='https://picsum.photos/64'
         persona='Pedrito'
         texto='wwwwwwwwwwwwwwwwwwwwwwwwwwwwwww'
-      />
+      />*/
     </div>
   );
 }
